@@ -1,0 +1,4 @@
+variable "vpcname" {
+    name = "dempvpc"
+  
+}
