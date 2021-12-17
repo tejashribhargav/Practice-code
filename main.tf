@@ -24,3 +24,7 @@ access_config {}
 resource "google_storage_bucket" "test_bucket" {
   name  = "my-bucket"
 }
+
+resource "google_compute_network" "vpc_network" {
+  name = "demo_vpc"
+}
