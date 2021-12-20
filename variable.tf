@@ -1,4 +1,0 @@
-//ariable "vpcname" {
-   // name = "dempvpc"
-  
-//}
