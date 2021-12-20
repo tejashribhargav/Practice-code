@@ -1,4 +1,4 @@
-variable "vpcname" {
-    name = "dempvpc"
+//ariable "vpcname" {
+   // name = "dempvpc"
   
-}
+//}
