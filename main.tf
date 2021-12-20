@@ -13,5 +13,5 @@ provider "google" {
   credentials = "credentials.json"
 }
 resource "google_compute_network" "vpc_network1" {
-  name = "terraform-network"
+  name = "terraform-network1"
 }
