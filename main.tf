@@ -1,16 +1,19 @@
-terraform {
-  required_providers {
-    google = {
-      source  = "hashicorp/google"
-      version = "3.5.0"
-    }
-  }
-}
 provider "google" {
-  project     = "sample-project-a-333711"
-  region      = "us-central1"
-  zone        = "us-central1-c"
+project = "sample-project-a-333711"
+region = "us-west1"
 }
-resource "google_compute_network" "vpc_network1" {
-  name = "terraform-network2"
+
+resource "google_compute_instance" "myvm" {
+name = "myvm-dev"
+zone = "us-west1-c"
+boot_disk {
+initialize_params {
+  image = "debian-cloud/debian-9"
+  size = "10"
+}
+}
+machine_type = "f1-micro" 
+network_interface {
+network = "default"
+}
 }
