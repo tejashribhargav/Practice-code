@@ -1,5 +1,5 @@
 variable "project" {
-  default = "qwiklabs-gcp-03-6c41176baafb"
+  default = "sample-project-a-333711"
 }
 
 variable "region" {
@@ -10,7 +10,7 @@ variable "zone" {
     default = "us-central-a"
 }
 
-variable "credentials" {
+/*variable "credentials" {
     default = "credentials.json"
-}
+}*/
 
