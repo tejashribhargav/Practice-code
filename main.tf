@@ -7,7 +7,7 @@ terraform {
   }
 }
 provider "google" {
-  project     = "qwiklabs-gcp-03-6c41176baafb"
+  project     = "sample-project-a-333711"
   region      = "us-central1"
   zone        = "us-central1-c"
 }
