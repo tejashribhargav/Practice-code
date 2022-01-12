@@ -10,7 +10,6 @@ provider "google" {
   project     = "qwiklabs-gcp-03-6c41176baafb"
   region      = "us-central1"
   zone        = "us-central1-c"
-  credentials = "credentials.json"
 }
 resource "google_compute_network" "vpc_network1" {
   name = "terraform-network2"
